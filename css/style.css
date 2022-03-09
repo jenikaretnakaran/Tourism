@@ -13,7 +13,7 @@ body, html {
 #headerImage  {
   position: relative;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   z-index: 1;
 }
@@ -22,7 +22,7 @@ body, html {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   min-width: 100%;
   min-height: 100%;
 }
@@ -58,9 +58,13 @@ body, html {
   text-align: center;
 }
 
-#headerImage .headerCntent .inner em {
+#headerImage .headerContent .inner em {
   font-style: normal;
   font-weight: 200;
+}
+#headerImage .headerContent .inner h2 {
+  color: #fff;
+  letter-spacing: 1.5px;
 }
 
 
