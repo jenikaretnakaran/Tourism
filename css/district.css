@@ -26,6 +26,7 @@ body{
   position: relative;
   height: 700px;
   width: 100%;
+  overflow: hidden;
 
 }
 
@@ -43,6 +44,5 @@ body{
 .description em {
   color: #9E2830;
 }
-
 
 
