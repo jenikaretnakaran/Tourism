@@ -1,0 +1,48 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #000;
+}
+
+#headerImage  {
+  position: relative;
+  width: 100%;
+}
+
+#headerImage .content {
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: beige;
+  font-family: 'Red Hat Display', sans-serif;
+  z-index: 2;
+}
+
+#headerImage .image {
+  position: relative;
+  height: 700px;
+  width: 100%;
+
+}
+
+.description {
+  width: fit-content;
+  height: 200px;
+  color:#fff;
+  font-size: 20px;
+  font-family:'Montserrat',sans-serif;
+  font-weight: 200;
+  padding: 50px 30px;
+  margin-top: 50px;
+  
+}
+.description em {
+  color: #9E2830;
+}
+
+
+

@@ -81,6 +81,11 @@
   .btn:hover{
     background-color: grey;
   }
+
+  .home {
+     padding-top: 30px;
+  }
+
  
   @media screen and (max-width : 950px){
      .form-section{
