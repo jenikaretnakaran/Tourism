@@ -142,7 +142,7 @@ nav {
 
 
 .full-screen-portfolio .container-fluid,
-.full-screen-portfolio .col-md-4, .col-md-8 {
+.full-screen-portfolio .col-md-4, .col-sm-6 {
   padding-left: 0px;
   padding-right: 0px;
 }
