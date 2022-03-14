@@ -98,6 +98,13 @@ nav {
 .nav-bar {
   margin-right: 30px;
 }
+.tag h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 50px;
+}
 
 /* button */
 .button {
@@ -139,12 +146,15 @@ nav {
   right: 0;
 }
 
+.full-screen-portfolio .container-fluid{
+  padding-top: 50px;
+  padding-bottom: 50px;
+} 
 
-
-.full-screen-portfolio .container-fluid,
 .full-screen-portfolio .col-md-4, .col-sm-6 {
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 2px;
+  padding-top: 2px;
 }
 
 
