@@ -67,13 +67,14 @@
   
   .btn{
     width: 75%;
-    padding: 10px 0;
+    padding: 10px;
     font-size: 20px;
     color: #fff;
     background-color: #f59e2e;
     border: none;
     outline: none;
     margin-bottom: 15px;
+    margin-top: 5px;
     border-radius: 8px;
 
   }
@@ -81,6 +82,47 @@
   .btn:hover{
     background-color: grey;
   }
+  
+  .button {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #4267B2;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    align-items: flex-start;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 30px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
 
   .home {
      padding-top: 30px;
