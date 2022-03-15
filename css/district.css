@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap');
 
 body{
   background-color: #000;
@@ -72,6 +73,25 @@ body{
 .row .column img:hover  {
   transform: scale(1.25);
 }
+.card .title {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+ .card .title h2 {
+   position: relative;
+   font-size: 22px;
+   display: inline-block;
+   padding-left: 10px;
+   color:#242B2E;
+   z-index: 2;
+   font-family: 'Source Code Pro', monospace;
+   text-transform: uppercase;
+   font-weight: 1000;
+ }
+
 .footer {
   margin-bottom: 40px;
   height: 100px;
