@@ -32,7 +32,8 @@ main{
 
 }
 .form{
-  width: 100%;
+  width:100%;
+  
 }
 .flex-column{
 flex-direction: column;
@@ -50,7 +51,7 @@ width: 75%;
   text-transform: capitalize;
 
 }
-input{
+.row input{
   font-size: 20px;
   padding: 10px 30px;
   border-radius: 8px;
@@ -59,11 +60,22 @@ input{
   width: 100%;
   margin: 0 8px 10px 0;
 }
-.row{
-  display: flex;
-  justify-content:space-between;
-  flex-direction: row;
+.row {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 91%;
+  align-items:baseline;
 }
+.form .row ::placeholder {
+  font-size: 20px;
+}
+
+.row .error {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
 
 .btn{
   width: 100%;
