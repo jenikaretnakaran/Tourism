@@ -98,7 +98,7 @@ else if (!validPassword(passwordValue)) {
      setWarning(password,"medium","orange");
  } 
  else {
-     setSuccess(password,"strong");
+     setWarning(password,"strong","green");
  };
 
 //  confirm password
